@@ -1,0 +1,9 @@
+s:524:"<h6>Featured Theme</h6>
+	<div class="clearfix">
+	<img src="http://www.concrete5.org/files/1913/5979/6781/theme_aubergine_icon.png" width="97" height="97" style="float: left; margin-right: 10px; margin-bottom: 10px" />
+	<h3>Aubergine</h3>
+	<p>Fully responsive &#039;Widescreen&#039; Purple theme. Demo set up for all things &#039;Aubergine&#039;.</p>
+	</div>
+	
+	<a href="javascript:void(0)" onclick="ccm_getMarketplaceItemDetails(1279)" href="http://www.concrete5.org/marketplace/themes/aubergine" class="btn">Learn More</a>
+";

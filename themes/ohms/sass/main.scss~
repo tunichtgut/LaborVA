@@ -1,0 +1,175 @@
+@import "typography.scss";
+@import "colors.scss";
+@import "page_ancestor.scss"
+
+
+/* HTML Tag Redefinition */
+html, body {
+    height: 100%;
+}
+body {
+    background-color: $light_grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+img { border: 0px }
+
+a { cursor:pointer}
+
+fieldset { border:1px solid #ccc;}
+
+/* error text class optionally provided by theme */
+div.ccm-error-response
+{
+    color: $red;
+    margin-bottom: 12px
+}
+
+#mainContent
+{
+    width: 980px;
+	height: auto;
+	text-align: left;
+	position: relative;
+	z-index: 3;
+    margin: auto;
+}
+
+/*==========================================       News-Navigation (MiniLinks)       ===================================================*/
+
+.newsNav {
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.newsNav li {
+	display: block;
+	list-style: none;
+	width: 273px;
+	height: 200px;
+	-moz-box-shadow: 0px 0px 2px $box_shadow; /*$light_box_shadow*/
+    -webkit-box-shadow: 0px 0px 2px $box_shadow;
+    box-shadow: 0px 0px 2px $box_shadow;
+    text-align: center;
+	float: left;
+	margin-right: 15px;
+
+	background: #fff;
+}
+
+.newsNav li a {
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.newsNav li a:hover {
+	background: #fff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOWY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, $white 23%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,$white), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, $white 23%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, $white 23%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, $white 23%,#f2f2f2 100%);
+	background: linear-gradient(to bottom, $white 23%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white', endColorstr='#f2f2f2',GradientType=0 );
+}
+
+	/*----------------------------------------    headings  ----------------------------------------------*/
+	#header-area h1
+	{
+		margin-left: 57px;
+	}
+
+
+/*============================================          Ende          ======================================================*/
+
+
+
+#contentRule
+{
+    width: 100%;
+    border: 0px;
+    height: 1px;
+    color: #f1f1f1;
+    background-color: #f1f1f1;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*============================================         Footer         ======================================================*/
+#ohmsLogo
+{
+    background-image: url(images/logos/ohms_logo.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerRule
+{
+    width: 100%;
+    border: 0px;
+    height: 1px;
+    color: #f1f1f1;
+    background-color: #f1f1f1;
+	margin-top: 40px;
+}
+
+#page #footer
+{
+    padding-top:24px;
+    clear:both;
+    padding-bottom:16px;
+    color:$medium_grey;
+    font-size:10px;
+    margin-bottom: 0px;
+}
+#page #footer a
+{
+    text-decoration:none;
+}
+
+#page #footer #footerNav
+{
+    text-align: center;
+    margin-top: 8px;
+}
+#page #footer #footerNav #links
+{
+    font-size: 11px;
+}
+
+/*============================================          Ende          ======================================================*/
+
+#page #central.navLeft{ background:url(images/nav_sidebar_left_bg.gif) repeat-y center; }
+#page #central.navLeft  #sidebar{float:left}
+#page #central.navLeft  #body{float:right; padding-right:0px; width:68%; }
+
+#page #central.noSideNav{ background: none; }
+#page #central.noSideNav  #sidebar{ display:none }
+#page #central.noSideNav  #body{float: none; padding-left:0px; padding-right:0px; width:100%; }
+
+/* Page Elements */
+
+.pagingNav{ margin:16px 0px 8px 0px}
+.pagination{ text-align:center; color:#bbb; padding-top:4px}
+.pagination .pageRight{width:20%; float:right; text-align:right}
+.pagination .pageLeft{width:20%; float:left; text-align:left}
+
+/* MISC STYLES & SHORTCUTS */
+div.code {border: 1px solid #ddd; background: #eee; padding: 10px}
+div.spacer,div.ccm-spacer{ clear:both; font-size:1px; line-height:1px }
+.noTopSpace{margin-top:0px; padding-top:0px}
+div.pageSection { margin-bottom: 10px; }
+
+/* customize_miscellaneous */ /* customize_miscellaneous */

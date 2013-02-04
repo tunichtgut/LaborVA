@@ -1,1 +1,1 @@
-sass -t compressed --watch stylesheets/sass/main.scss:main.css
+sass -t compressed --watch sass/main.scss:main.css

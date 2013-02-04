@@ -1,0 +1,9 @@
+s:431:"<h6>Featured Add-On</h6>
+	<div class="clearfix">
+	<img src="http://www.concrete5.org/files/9913/5939/4991/formigo_social_life_icon.png" width="97" height="97" style="float: left; margin-right: 10px; margin-bottom: 10px" />
+	<h3>Formigo Social Life</h3>
+	<p>Add all of your social streams to your concrete5 website</p>
+	</div>
+	
+	<a href="javascript:void(0)" onclick="ccm_getMarketplaceItemDetails(1269)" class="btn">Learn More</a>
+";

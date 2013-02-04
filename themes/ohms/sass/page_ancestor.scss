@@ -1,0 +1,150 @@
+/* Page Structure / Navigation */
+#page
+{
+    width:981px;
+    margin:
+    {
+        left:auto;
+        right:auto;
+        top: 0px;
+    }
+    height: auto;
+	text-align: center;
+	position: relative;
+	background-color: #fff;
+	z-index: 2;
+	left: 14px;
+    -moz-box-shadow: 0px 0px 4px $light_box_shadow;
+    -webkit-box-shadow: 0px 0px 4px $light_box_shadow;
+    box-shadow: 0px 0px 4px $light_box_shadow;
+	padding: {
+	    bottom: 15px;
+        left: 70px;
+        right: 70px;
+        top: 0px;
+    }
+    #headerSpacer { height:64px }
+
+    /*============================================       Header       ======================================================*/
+    #header {
+        position:relative;
+
+        /*============================================       Navigation       ======================================================*/
+        #headerNav
+        {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index:2;
+            overflow:visible;
+            width: 100%;
+            height: 45px;
+            background-color: #fec910;
+            ul.nav
+            {
+                list-style:none;
+                margin-right:0px;
+                margin-top: 0px;
+                padding:0 3px 0 3px;
+                font-size:14px;
+                font-weight: bold;
+                li
+                {
+                    display: block;
+                    width: 107px;
+                    float: left;
+                    text-align: center;
+
+                    a //Links für die Hauptnavigation
+                    {
+                        color: $nearly_black;
+	                    font-family: "OpelSansW10";
+                        display: block;
+                        height: 40px;
+                        margin-top: 2px;
+                        margin-bottom: 3px;
+                        &:hover
+                        {
+                            color: $nearly_black;
+                            display: block;
+                            background-color: rgba(255,255,255,0.4);
+                            height: 40px;
+                            margin-top: 2px;
+                            margin-bottom: 3px;
+                        }
+                    }//a Ende - Links für die Hauptnavigation
+
+                    //Festlegen des Homebuttons
+                    .home
+                    {
+                        background-image: url(images/menu/home.png);
+                        background-repeat: no-repeat;
+                    }
+                    .rest
+                    {
+                        padding-top: 12px;
+                        height:28px;
+                        background-repeat: no-repeat;
+                    }
+                    //Aktiver Link im automatischen Menü
+                    .nav-path-selected
+                    {
+                        color: $nearly_black;
+                        display: block;
+                        background-color: #fff;
+                        height: 40px;
+                        margin-top: 2px;
+                        margin-bottom: 3px;
+                    }
+                }//li Ende
+            } //ul.nav Ende
+        }
+
+        #header-area
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            #header-area-inside { margin-bottom: 12px; }
+            img { display: block; }
+            /*----------------------------------------    Sub Navigation  ----------------------------------------------*/
+	        ul.nav
+	        {
+	            position: absolute;
+	            z-index: 5;
+	            text-align: right;
+	            right: 77px;
+	            li
+	            {
+	                display: inline;
+	                list-style: none;
+	                padding-left: 20px;
+	                a
+	                {
+	                    color: $nearly_black;
+		                font-size: 15px;
+		                &:hover { color: #898989; }
+	                }
+	            }
+	        }
+
+	        #header-area .nav li a
+
+	        #header-area .nav li a:active
+	        {
+	            color: #898989;
+	        }
+
+	        #headerRule
+	        {
+	            width: 100%;
+	            border: 0px;
+	            height: 1px;
+	            color: #f1f1f1;
+	            background-color: #f1f1f1;
+		        margin-top: 20px;
+		        margin-bottom: 50px;
+	        }
+        }
+    }
+
+}

@@ -1,0 +1,3 @@
+<br />
+<b>Warning</b>:  copy(/kunden/326221_24251/webseiten/cloud/owncloud/data/matthis/files_versions/Dokumente/My Web Sites/concrete5/files/cache/zend_cache---internal-metadatas---20409ec389a927ce6948ed79a99230ff0fd914820b16a4f0bd52b49e3713a56b.v1359203691) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in <b>/kunden/326221_24251/webseiten/cloud/owncloud/lib/filestorage/local.php</b> on line <b>109</b><br />
+a:4:{s:4:"hash";i:646242232;s:5:"mtime";i:1354211784;s:6:"expire";d:9999999999;s:4:"tags";a:1:{i:0;s:14:"file_version_2";}}
