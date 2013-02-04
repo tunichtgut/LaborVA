@@ -1,0 +1,42 @@
+O:8:"stdClass":4:{s:7:"version";s:7:"5.6.0.2";s:5:"notes";s:2276:"
+	
+<h2>5.6.0.2</h2>
+
+<h2>Behavioral Improvements</h2>
+
+<ul>
+<li>Improvements to ccm.app.css and ccm.app.js for coexistence with full bootstrap themes. Broke bootstrap.js into a separate JavaScript file.</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+
+<ul>
+<li>Fixed bugs where certain block dialogs and add stack dialog were blank in IE8.</li>
+<li>Fixed IE bugs where the sub-toolbar status bar wouldn’t display</li>
+<li>fixed inability to use page picker when register globals was on.</li>
+<li>Fixed bug where deleting alias would delete source page (again).</li>
+<li>fixing bug where blocks would disappear when adding a layout if the cache was on.</li>
+<li>fix bug in simple permissions display when working with deleted groups.</li>
+<li>Fixed blank file manager window in IE8.</li>
+<li>Attempting to solve intermittent error in PagePermissionAssignments messages that happen on certain upgrades.</li>
+<li>Fixed error when using group combinations on basic workflow.</li>
+<li>Better permissions upgrading when using simple permissions.</li>
+<li>Guestbook comments will now no longer be removed on update of guestbook block.</li>
+<li>Attempting to solve “Illegal Mix 
+of Collations” MySQL error that can affect some setups when previewing pages.</li>
+<li>Fixed: http
+://www.concrete5.org/index.php?cID=380195</li>
+<li>File manager saved search cosmetic improvements.</li>
+<li>Removed old code from user avatar uploader that could cause problems if used maliciously.</li>
+<li>Fixed bug where Schedule Guest Access would remove all but guest users from view permission.</li>
+<li>http://www.concrete5.org/developers/bugs/5.6.0.1/getpermissionobject-incompatibles-between-5.5.x-and-5.6.x/</li>
+<li>Pretty URLs are now honored in the Next/Previous block.</li>
+<li>Fixed: http://www.concrete5.org/developers/bugs/5.6.0.1/wrong-notice-in-file-permissions-dialogue/</li>
+<li>Fixed error where setting custom groups on Access User Search or Assign User Groups permission results in showing one group repeated over and over.</li>
+<li>Added legacy getPermissionsObject back to Block Controller to fix Reviews add-on, others.</li>
+<li>Fixed typo in the form block (Thanks Remo).</li>
+<li>Fixing the error in loading the editor when using custom code and the Concrete TinyMCE theme.</li>
+</ul>
+
+
+	";s:3:"url";s:46:"http://www.concrete5.org/download_file/-/44329";s:4:"date";s:10:"2012-09-20";}

@@ -1,0 +1,1 @@
+O:17:"AreaPermissionKey":10:{s:5:"error";s:0:"";s:4:"pkID";s:2:"18";s:6:"pkName";s:9:"View Area";s:13:"pkDescription";s:35:"Can view the area and its contents.";s:8:"pkHandle";s:9:"view_area";s:16:"pkCategoryHandle";s:4:"area";s:20:"pkCanTriggerWorkflow";s:1:"0";s:16:"pkHasCustomClass";s:1:"0";s:12:"pkCategoryID";s:1:"8";s:5:"pkgID";s:1:"0";}
