@@ -1,28 +1,28 @@
 @font-face {
     font-family: "OpelSansW01Bold";
-    src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"),
+		 url("fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10";
-    src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-Condensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-Condensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW10-Condensed.woff") format("woff"),
+		 url("fonts/OpelSansW10-Condensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10Bold";
-    src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"),
+		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
-body { 
+body {
 	/* customize_body */ font: normal normal 14px 'Calibri', "Helvetica Neue", Helvetica, sans-serif; /* customize_body */
 	/* customize_body */ color: #777777; /* customize_body */
 	line-height:18px;
@@ -36,7 +36,7 @@ a,a:visited,a:active {
 a:hover {
 	/* customize_link_hover */ color: #ffae00; /* customize_link_hover */
     text-decoration: none;
-} 
+}
 
 h1,h2,h3,h4,h5{ margin:0px 0px 4px 0px; padding:4px 0px; margin-top:8px; color: #fec910; font-weight: bold; font-size: 21px; font-family: "OpelSansW10", "Calibri", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h1{ font: normal normal; line-height:30px; font-size: 30px; }

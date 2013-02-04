@@ -6,7 +6,6 @@
 
 <!-- Site Header Content //-->
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('main.css')?>" />
-<link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getStyleSheet('typography.css')?>" />
 
 <?php  Loader::element('header_required'); ?>
 
@@ -27,7 +26,7 @@
 		    <?php  if ($c->isEditMode()) { ?>
 		    <div style="min-height: 80px">
 		    <?php  } ?>
-		
+
 		    <div id="headerNav">
 			    <?php
 			    $a = new Area('Header Nav');
@@ -35,7 +34,7 @@
 			    ?>
 		    </div>
 
-		    <?php 
+		    <?php
 		    // we use the "is edit mode" check because, in edit mode, the bottom of the area overlaps the item below it, because
 		    // we're using absolute positioning. So in edit mode we add a bit of space so everything looks nice.
 		    ?>
@@ -46,15 +45,15 @@
 		    <?php  if ($c->isEditMode()) { ?>
 		    </div>
 		    <?php  } ?>
-		
+
 		    <div id="header-area">
 			    <!--div class="divider"></div-->
 			    <div id="header-area-inside">
-			    <?php 			
+			    <?php
 			    $ah = new Area('Header');
-			    $ah->display($c);			
-			    ?>	
-			    </div>	
-			
+			    $ah->display($c);
+			    ?>
+			    </div>
+
 		    </div>
 	    </div>			

@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: "OpelSansW01Bold";
     src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"),
@@ -6,7 +7,8 @@
 		 url("fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
-@font-face {
+@font-face
+{
     font-family: "OpelSansW10";
     src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW10-Condensed.woff") format("woff"),
@@ -14,13 +16,15 @@
 		 url("fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
-@font-face {
+@font-face
+{
     font-family: "OpelSansW10Bold";
     src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"),
 		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
+
 
 body {
 	/* customize_body */ font: normal normal 14px 'Calibri', "Helvetica Neue", Helvetica, sans-serif; /* customize_body */
