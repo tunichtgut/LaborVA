@@ -1,0 +1,14 @@
+
+/* Hauptfarben */
+$light_grey: #f2f2f2;
+$white: #fff;
+$red: #f00;
+
+/* Farbverläufe */
+$gradient_light_grey: #f9f9f9;
+
+/* Boxshadows */
+$box_shadow: #888;
+$light_box_shadow: #b2b2b2;
+
+/* Links */
