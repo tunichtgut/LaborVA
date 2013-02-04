@@ -1,4 +1,4 @@
-/* HTML Tag Redefinition */
+s:14432:"/* HTML Tag Redefinition */
 html, body {height: 100%;  }
 body {/* customize_background */ background-color: #f2f2f2; /* customize_background */ padding: 0px; margin: 0px; }
 img {border: 0px}
@@ -32,26 +32,26 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 @font-face {
     font-family: "OpelSansW01Bold";
-    src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"), 
-		 url("fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
+    src: url("http://localhost/ohms/themes/ohms/fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW01-BoldCondensed.woff") format("woff"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10";
-    src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-Condensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-Condensed.ttf") format("truetype"), 
-		 url("fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
+    src: url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-Condensed.woff") format("woff"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-Condensed.ttf") format("truetype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10Bold";
-    src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"), 
-		 url("fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
+    src: url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-BoldCondensed.woff") format("woff"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"), 
+		 url("http://localhost/ohms/themes/ohms/fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 /* Page Structure / Navigation */
@@ -63,7 +63,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
     height: auto;
 	text-align: center;
 	position: relative;
-	background-color: #fff;/*url(images/schatten/Contentshadow.png)*/
+	background-color: #fff;/*url(http://localhost/ohms/themes/ohms/images/schatten/Contentshadow.png)*/
 	z-index: 2;
 	left: 14px;
 	/*padding-top: 15px;*/
@@ -92,7 +92,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 	line-height: auto; 
 	margin-bottom: 0px; padding: 0px; margin-top:8px; cursor:pointer;  left:0px ; z-index:1; width:auto; float:left; position: relative }
 #page #header #logo a{ /* customize_header_logo */color:#999; /* customize_header_logo */ text-decoration:none; 
-    background-image: url(images/logo.jpg);  }
+    background-image: url(http://localhost/ohms/themes/ohms/images/logo.jpg);  }
 #page #header #logo p{ display:inline; line-height:inherit; font-size:inherit; padding:inherit; margin:inherit; color:inherit }
 
 
@@ -108,7 +108,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 #page .divider
 {
     padding-top: 0px; 
-    background: url(images/trenner/trenner.png);
+    background: url(http://localhost/ohms/themes/ohms/images/trenner/trenner.png);
     overflow: hidden; 
     height: 17px;
     width: 100%;
@@ -120,7 +120,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 .dividerDown
 {
-    background: url(images/trenner/trennerUnten.png);
+    background: url(http://localhost/ohms/themes/ohms/images/trenner/trennerUnten.png);
     overflow: hidden; 
     height: 17px;
     width: 100%;
@@ -131,10 +131,10 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 #page #central
 {
-    background:url(images/nav_sidebar_right_bg.gif) repeat-y center; clear:both;
+    background:url(http://localhost/ohms/themes/ohms/images/nav_sidebar_right_bg.gif) repeat-y center; clear:both;
 }
 #page .no-sidebar { background-image: none !important}
-#page #central.central-left { background:url(images/nav_sidebar_left_bg.gif) repeat-y center !important; }
+#page #central.central-left { background:url(http://localhost/ohms/themes/ohms/images/nav_sidebar_left_bg.gif) repeat-y center !important; }
 #page #central.central-left div#sidebar {float: left !important; }
 #page #central.central-left #body {padding-left: 68px !important; padding-right: 0px !important; float:right}
  
@@ -225,7 +225,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 /* Für SVGs noch Browserweiche einbauen */
 #page #header #headerNav ul.nav li a.home
 {
-    background-image: url(images/menu/home.svg);
+    background-image: url(http://localhost/ohms/themes/ohms/images/menu/home.svg);
     background-repeat: no-repeat;
 }
 #page #header #headerNav ul.nav li a.rest
@@ -368,7 +368,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 /*============================================         Footer         ======================================================*/
 #ohmsLogo
 {
-    background-image: url(images/logos/ohms_logo.png);
+    background-image: url(http://localhost/ohms/themes/ohms/images/logos/ohms_logo.png);
     background-repeat: no-repeat;
     width: 200px;
     height: 35px;
@@ -413,7 +413,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 /*============================================          Ende          ======================================================*/
 
-#page #central.navLeft{ background:url(images/nav_sidebar_left_bg.gif) repeat-y center; }
+#page #central.navLeft{ background:url(http://localhost/ohms/themes/ohms/images/nav_sidebar_left_bg.gif) repeat-y center; }
 #page #central.navLeft  #sidebar{float:left}
 #page #central.navLeft  #body{float:right; padding-right:0px; width:68%; }
 
@@ -435,3 +435,4 @@ div.spacer,div.ccm-spacer{ clear:both; font-size:1px; line-height:1px }
 div.pageSection { margin-bottom: 10px; }
 
 /* customize_miscellaneous */ /* customize_miscellaneous */
+";

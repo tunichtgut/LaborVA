@@ -1,0 +1,1 @@
+O:32:"MarketplaceNewsflowPermissionKey":10:{s:5:"error";s:0:"";s:4:"pkID";s:2:"70";s:6:"pkName";s:13:"View Newsflow";s:13:"pkDescription";N;s:8:"pkHandle";s:13:"view_newsflow";s:16:"pkCategoryHandle";s:20:"marketplace_newsflow";s:20:"pkCanTriggerWorkflow";s:1:"0";s:16:"pkHasCustomClass";s:1:"0";s:12:"pkCategoryID";s:2:"13";s:5:"pkgID";s:1:"0";}

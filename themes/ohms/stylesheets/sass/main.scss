@@ -1,5 +1,8 @@
+@import "typography.scss";
 /* HTML Tag Redefinition */
-html, body {height: 100%;  }
+html, body {
+    height: 100%;
+}
 body {/* customize_background */ background-color: #f2f2f2; /* customize_background */ padding: 0px; margin: 0px; }
 img {border: 0px}
 a { cursor:pointer}
@@ -16,7 +19,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
     -webkit-box-shadow: 0px 0px 2px #888;
     box-shadow: 0px 0px 2px #888;
     text-align: center;
-	
+
 	background: #ffffff;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOWY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
@@ -32,34 +35,34 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 @font-face {
     font-family: "OpelSansW01Bold";
-    src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"),
+		 url("fonts/OpelSansW01-BoldCondensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10";
-    src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-Condensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-Condensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW10-Condensed.woff") format("woff"),
+		 url("fonts/OpelSansW10-Condensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 @font-face {
     font-family: "OpelSansW10Bold";
-    src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"), 
-		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"), 
-		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"), 
+    src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"),
+		 url("fonts/OpelSansW10-BoldCondensed.ttf") format("truetype"),
 		 url("fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
 /* Page Structure / Navigation */
 #page{
-    width:980px; 
+    width:981px;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 0px; 
+    margin-top: 0px;
     height: auto;
 	text-align: center;
 	position: relative;
@@ -86,12 +89,12 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 }
 
 #page #headerSpacer{ height:64px }
-#page #header{ position:relative; } 
-#page #header #logo{ color:#999; font-size:32px;           
-	font-family:Arial, Helvetica, sans-serif; 
-	line-height: auto; 
+#page #header{ position:relative; }
+#page #header #logo{ color:#999; font-size:32px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: auto;
 	margin-bottom: 0px; padding: 0px; margin-top:8px; cursor:pointer;  left:0px ; z-index:1; width:auto; float:left; position: relative }
-#page #header #logo a{ /* customize_header_logo */color:#999; /* customize_header_logo */ text-decoration:none; 
+#page #header #logo a{ /* customize_header_logo */color:#999; /* customize_header_logo */ text-decoration:none;
     background-image: url(images/logo.jpg);  }
 #page #header #logo p{ display:inline; line-height:inherit; font-size:inherit; padding:inherit; margin:inherit; color:inherit }
 
@@ -107,9 +110,9 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 
 #page .divider
 {
-    padding-top: 0px; 
+    padding-top: 0px;
     background: url(images/trenner/trenner.png);
-    overflow: hidden; 
+    overflow: hidden;
     height: 17px;
     width: 100%;
     background-repeat: no-repeat;
@@ -121,7 +124,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 .dividerDown
 {
     background: url(images/trenner/trennerUnten.png);
-    overflow: hidden; 
+    overflow: hidden;
     height: 17px;
     width: 100%;
     background-repeat: no-repeat;
@@ -137,7 +140,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 #page #central.central-left { background:url(images/nav_sidebar_left_bg.gif) repeat-y center !important; }
 #page #central.central-left div#sidebar {float: left !important; }
 #page #central.central-left #body {padding-left: 68px !important; padding-right: 0px !important; float:right}
- 
+
 #page #central #body{ float:left; width:67%; padding-right:28px; padding-left: 0px !important; padding-right: 0px !important }
 #page .no-sidebar #body{ float: none !important; width: auto !important; }
 #page #central #sidebar{ float:right; width:23%; overflow:hidden }
@@ -153,28 +156,28 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 #page #central #sidebar ul.nav ul li{ margin-bottom:16px; }*/
 
 /*============================================       Navigation       ======================================================*/
-#page #header #headerNav{ 
-    position: absolute; 
-    top: 0px; 
-    right: 0px; 
-    z-index:2; 
+#page #header #headerNav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index:2;
     overflow:visible;
     width: 100%;
     height: 45px;
     background-color: #fec910;
 }
 
-#page #header #headerNav ul.nav 
-{ 
-    list-style:none; 
-    margin-right:0px; 
-    margin-top: 0px; 
+#page #header #headerNav ul.nav
+{
+    list-style:none;
+    margin-right:0px;
+    margin-top: 0px;
     padding:0 3px 0 3px;
     font-size:14px;
     font-weight: bold;
 }
-#page #header #headerNav ul.nav li 
-{ 
+#page #header #headerNav ul.nav li
+{
     display: block;
     width: 107px;
     /*background-color: #f00;*/
@@ -254,7 +257,7 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
     text-align: center;
 	float: left;
 	margin-right: 15px;
-	
+
 	background: #fff;
 }
 
@@ -347,8 +350,8 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 	{
 		margin-left: 57px;
 	}
-	
-	
+
+
 /*============================================          Ende          ======================================================*/
 
 
@@ -388,26 +391,26 @@ div.ccm-error-response {color: #f00; margin-bottom: 12px}
 }
 
 #page #footer
-{ 
-    padding-top:24px; 
-    clear:both; 
-    padding-bottom:16px; 
-    color:#999; 
-    font-size:10px; 
-    margin-bottom: 0px; 
+{
+    padding-top:24px;
+    clear:both;
+    padding-bottom:16px;
+    color:#999;
+    font-size:10px;
+    margin-bottom: 0px;
 }
 #page #footer a
-{ 
+{
     text-decoration:none;
 }
 
 #page #footer #footerNav
-{ 
-    text-align: center; 
+{
+    text-align: center;
     margin-top: 8px;
 }
 #page #footer #footerNav #links
-{ 
+{
     font-size: 11px;
 }
 
