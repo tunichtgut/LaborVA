@@ -75,39 +75,78 @@ div.ccm-error-response
     /*** Header styling  ***/
     #header {
         position:relative;
-        ul.nav-header
+
+        /*============================================       Navigation       ======================================================*/
+        #headerNav
         {
-            list-style:none;
-            margin:0px;
-            padding:0px;
-            width:auto;
+            position: absolute;
+            top: 0px;
+            right: 0px;
             z-index:2;
             overflow:visible;
-            float: right;
-            li {
-                float:left;
-                padding:2px 0px;
-                margin:
-                {
-                    left:16px;
-                    bottom: 0px;
-                    top: 0px;
-                }
-                color:$medium_grey;
-                font-size:13px;
-                display: inline
-                a
-                {
-                    text-decoration: none;
-                    color: $medium_grey;
-                }
-            }
-            li.nav-selected
+            width: 100%;
+            height: 45px;
+            background-color: #fec910;
+            ul.nav
             {
-                border:1px solid #bbb;
-                padding:2px 8px;
-            }
+                list-style:none;
+                margin-right:0px;
+                margin-top: 0px;
+                padding:0 3px 0 3px;
+                font-size:14px;
+                font-weight: bold;
+                li
+                {
+                    display: block;
+                    width: 107px;
+                    float: left;
+                    text-align: center;
+
+                    a //Links für die Hauptnavigation
+                    {
+                        color: $nearly_black;
+	                    font-family: "OpelSansW10";
+                        display: block;
+                        height: 40px;
+                        margin-top: 2px;
+                        margin-bottom: 3px;
+                        &:hover
+                        {
+                            color: $nearly_black;
+                            display: block;
+                            background-color: rgba(255,255,255,0.4);
+                            height: 40px;
+                            margin-top: 2px;
+                            margin-bottom: 3px;
+                        }
+                    }//a Ende - Links für die Hauptnavigation
+
+                    //Festlegen des Homebuttons
+                    .home
+                    {
+                        background-image: url(images/menu/home.png);
+                        background-repeat: no-repeat;
+                    }
+                    .rest
+                    {
+                        padding-top: 12px;
+                        height:28px;
+                        background-repeat: no-repeat;
+                    }
+                    //Aktiver Link im automatischen Menü
+                    .nav-path-selected
+                    {
+                        color: $nearly_black;
+                        display: block;
+                        background-color: #fff;
+                        height: 40px;
+                        margin-top: 2px;
+                        margin-bottom: 3px;
+                    }
+                }//li Ende
+            } //ul.nav Ende
         }
+
         #header-area
         {
             margin-top: 10px;
@@ -126,89 +165,6 @@ div.ccm-error-response
 	position: relative;
 	z-index: 3;
     margin: auto;
-}
-
-/*============================================       Navigation       ======================================================*/
-#page #header #headerNav{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index:2;
-    overflow:visible;
-    width: 100%;
-    height: 45px;
-    background-color: #fec910;
-}
-
-#page #header #headerNav ul.nav
-{
-    list-style:none;
-    margin-right:0px;
-    margin-top: 0px;
-    padding:0 3px 0 3px;
-    font-size:14px;
-    font-weight: bold;
-}
-#page #header #headerNav ul.nav li
-{
-    display: block;
-    width: 107px;
-    /*background-color: #f00;*/
-    float: left;
-    text-align: center;
-}
-
-#page #header #headerNav ul.nav li a
-{
-    color: #191919;
-	font-family: "OpelSansW10";
-    display: block;
-    height: 40px;
-    margin-top: 2px;
-    margin-bottom: 3px;
-}
-
-/*#page #header #headerNav ul.nav li.nav-active a
-{
-    color: #191919;
-    display: block;
-    background-color: #fff;
-    height: 40px;
-    margin-top: 2px;
-    margin-bottom: 3px; /*noch problematisch...*/
-/*}*/
-
-#page #header #headerNav ul.nav li.nav-path-selected
-{
-    color: #191919;
-    display: block;
-    background-color: #fff;
-    height: 40px;
-    margin-top: 2px;
-    margin-bottom: 3px; /*noch problematisch...*/
-}
-
-#page #header #headerNav ul.nav li a:hover
-{
-    color: #191919;
-    display: block;
-    background-color: rgba(255,255,255,0.4);
-    height: 40px;
-    margin-top: 2px;
-    margin-bottom: 3px;
-}
-
-/* Für SVGs noch Browserweiche einbauen */
-#page #header #headerNav ul.nav li a.home
-{
-    background-image: url(images/menu/home.svg);
-    background-repeat: no-repeat;
-}
-#page #header #headerNav ul.nav li a.rest
-{
-    padding-top: 12px;
-    height:28px;
-    background-repeat: no-repeat;
 }
 
 /*==========================================       News-Navigation       ===================================================*/
@@ -293,7 +249,7 @@ div.ccm-error-response
 
 	#header-area .nav li a
 	{
-	    color: #191919;
+	    color: $nearly_black;
 		font-size: 15px;
 	}
 

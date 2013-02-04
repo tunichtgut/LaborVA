@@ -12,3 +12,4 @@ $box_shadow: #888;
 $light_box_shadow: #b2b2b2;
 
 /* Links */
+$medium_grey: #999;

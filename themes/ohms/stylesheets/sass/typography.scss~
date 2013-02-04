@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: "OpelSansW01Bold";
     src: url("fonts/OpelSansW01-BoldCondensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW01-BoldCondensed.woff") format("woff"),
@@ -6,7 +7,8 @@
 		 url("fonts/OpelSansW01-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
-@font-face {
+@font-face
+{
     font-family: "OpelSansW10";
     src: url("fonts/OpelSansW10-Condensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW10-Condensed.woff") format("woff"),
@@ -14,7 +16,8 @@
 		 url("fonts/OpelSansW10-Condensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
-@font-face {
+@font-face
+{
     font-family: "OpelSansW10Bold";
     src: url("fonts/OpelSansW10-BoldCondensed.eot?#iefix") format("embedded-opentype"),
 		 url("fonts/OpelSansW10-BoldCondensed.woff") format("woff"),
@@ -22,8 +25,9 @@
 		 url("fonts/OpelSansW10-BoldCondensed.svg#OpelSansW01-BoldCondensed") format("svg");
 }
 
+
 body {
-	/* customize_body */ font: normal normal 14px 'Calibri', "Helvetica Neue", Helvetica, sans-serif; /* customize_body */
+	/* customize_body */ font: normal normal 14px 'Calibri', "Ubuntu", "Helvetica Neue", Helvetica, "Droid-Sans", sans-serif; /* customize_body */
 	/* customize_body */ color: #777777; /* customize_body */
 	line-height:18px;
 }
@@ -38,7 +42,7 @@ a:hover {
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5{ margin:0px 0px 4px 0px; padding:4px 0px; margin-top:8px; color: #fec910; font-weight: bold; font-size: 21px; font-family: "OpelSansW10", "Calibri", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1,h2,h3,h4,h5{ margin:0px 0px 4px 0px; padding:4px 0px; margin-top:8px; color: #fec910; font-weight: bold; font-size: 21px; font-family: "OpelSansW10", "Calibri", "Helvetica Neue", Helvetica, "Ubuntu", "Droid-Sans", Arial, sans-serif; }
 h1{ font: normal normal; line-height:30px; font-size: 30px; }
 h2{ font-size:22px; line-height:24px; font-family: "OpelSansW10"; font-weight: normal; }
 h3{ font-size:16px; line-height:21px; color: #555; font-family: "OpelSansW10"; font-weight: normal; }
