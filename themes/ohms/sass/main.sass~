@@ -128,17 +128,44 @@ div.ccm-error-response
 
 /*============================================          Ende          ======================================================*/
 
-//#page #central.navLeft background:url(images/nav_sidebar_left_bg.gif) repeat-y center
-//#page #central.navLeft  #sidebarfloat:left
-//#page #central.navLeft  #bodyfloat:right padding-right:0px width:68%
-//#page #central.noSideNav background: none
-//#page #central.noSideNav  #sidebar display:none
-//#page #central.noSideNav  #bodyfloat: none padding-left:0px padding-right:0px width:100%
-///* Page Elements */
-//.pagingNav margin:16px 0px 8px 0px
-//.pagination text-align:center color:#bbb padding-top:4px
-//.pagination .pageRightwidth:20% float:right text-align:right
-//.pagination .pageLeftwidth:20% float:left text-align:left
+#page #central.navLeft
+    background: url(images/nav_sidebar_left_bg.gif) repeat-y center
+
+#page #central.navLeft  #sidebarfloat:left
+
+#page #central.navLeft  #body
+    float: right
+    padding-right: 0px
+    width:68%
+
+#page #central.noSideNav
+    background: none
+#page #central.noSideNav  #sidebar
+    display: none
+#page #central.noSideNav  #body
+    float: none
+    padding-left:0px
+    padding-right:0px
+    width: 100%
+/* Page Elements */
+.pagingNav
+    margin: 16px 0px 8px 0px
+
+.pagination
+    text-align: center
+    color:#bbb
+    padding-top: 4px
+
+.pagination .pageRight
+    width: 20%
+    float:right
+    text-align: right
+
+.pagination .pageLeft
+    width: 20%
+    float:left
+    text-align: left
+
 ///* MISC STYLES & SHORTCUTS */
 div.code
     border: 1px
